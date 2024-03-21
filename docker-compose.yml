@@ -4,7 +4,7 @@ services:
         environment:
             # OPENAI/AZURE/OPENROUTER
             - ENDPOINT=OPENAI
-            - OPENAI_API_KEY=
+            - OPENAI_API_KEY=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
             # - AZURE_API_KEY=
             # - AZURE_ENDPOINT=
             # - OPENROUTER_API_KEY=
@@ -34,9 +34,9 @@ services:
         image: postgres
         restart: always
         environment:
-            POSTGRES_USER: pilot
-            POSTGRES_PASSWORD: pilot
-            POSTGRES_DB: pilot
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: Bossmarc@747
+            POSTGRES_DB: tmdev
         ports:
         - "5432:5432"
         healthcheck:
